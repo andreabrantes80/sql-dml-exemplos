@@ -1,0 +1,10 @@
+--seleciona tabela users 
+SELECT * from users;
+
+--seleciona coluna email
+SELECT email from users;
+
+--apelidos para tabelas e colunas
+  SELECT u.email e, u.id i, u.first_name  from users as u;
+
+  
