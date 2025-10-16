@@ -1,0 +1,17 @@
+--where filtra registros
+SELECT * FROM  users 
+WHERE ID =4;
+
+--where filtra registros
+SELECT * FROM  users 
+WHERE first_name ='MILENA';
+
+--where filtra registros maiores que id = 2
+-- = < <= >= <> !=
+SELECT * from users where id>2;
+
+--where filtra registros
+-- operadores de comparação = < <= >= <> !=
+--operadores lógicos and e or
+SELECT * from users;
+SELECT * FROM users where id=1 and first_name='ANDRE' and last_name='MELO'; 
