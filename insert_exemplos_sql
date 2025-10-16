@@ -1,0 +1,2 @@
+--Inserção de dados na tabela users
+INSERT INTO users(first_name, last_name, email, password_hash) VALUES ('MILENA', 'PONTES', 'milena@gmail.com', 'a2-hash');
