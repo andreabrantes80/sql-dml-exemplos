@@ -1,0 +1,9 @@
+--insert select
+-- insere valores em uma tabela usando outra CONCAT = || no sqlite3
+
+INSERT INTO profiles (bio, description, user_id)
+SELECT 
+    'Bio de ' || first_name AS bio,
+    'Description de ' || first_name AS description,
+    id AS user_id
+FROM users
