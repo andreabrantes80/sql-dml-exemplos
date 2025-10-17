@@ -1,0 +1,2 @@
+-- like seleciona elementos parecido
+SELECT * from users where first_name like '%mo%';
