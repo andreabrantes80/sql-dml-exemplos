@@ -1,0 +1,2 @@
+-- in seleciona elementos entre os valores enviados
+SELECT * from users where id in (5, 10, 50, 100);
