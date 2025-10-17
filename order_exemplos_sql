@@ -1,0 +1,3 @@
+-- order seleciona elementos e ordena 'descedente e ascedente' 
+SELECT id, first_name, email as uemail from users
+where id BETWEEN 50 and 100 order by id desc;
