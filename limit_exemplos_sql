@@ -1,0 +1,4 @@
+-- limit limita a qtd de valores
+--offset usado para paginação desloca o curso para exibir os resultados
+SELECT id, first_name, email as uemail from users
+where id BETWEEN 50 and 100 order by id asc LIMIT   0,3;
